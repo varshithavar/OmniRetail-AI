@@ -1,0 +1,27 @@
+
+project:
+  name: OmniRetail-AI
+  version: 0.1.0
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+forecasting:
+  model: prophet
+  test_size: 0.2
+  target_mape: 15.0
+
+pricing:
+  minimum_price_multiplier: 0.80
+  maximum_price_multiplier: 1.20
+  minimum_skus_to_test: 20
+
+inventory:
+  default_lead_time_days: 7
+  safety_stock_days: 3
+
+mlflow:
+  tracking_uri: ./mlruns
+  experiment_name: omniretail-forecasting
+  target_experiments: 10

@@ -1,0 +1,22 @@
+{
+  "dummy_mean": {
+    "mae": 0.1662135416666667,
+    "rmse": 0.1953892349260829,
+    "mape_percent": 31.840116036596815
+  },
+  "random_forest": {
+    "mae": 0.16734701528101528,
+    "rmse": 0.19856360744505294,
+    "mape_percent": 31.864443506037915
+  },
+  "dataset": {
+    "valid_rows": 1200,
+    "training_rows": 960,
+    "testing_rows": 240,
+    "feature_count": 11,
+    "first_test_date": "2026-06-30",
+    "last_test_date": "2026-08-31",
+    "target": "demand_index",
+    "split_method": "chronological 80/20"
+  }
+}

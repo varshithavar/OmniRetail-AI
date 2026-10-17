@@ -1,0 +1,14 @@
+
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn
+statsmodels
+prophet
+tensorflow
+mlflow
+pydantic
+PyYAML
+pytest
+httpx
